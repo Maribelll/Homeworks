@@ -1,0 +1,22 @@
+let americanStates = {
+   'AL': 'Alabama',
+   'AK': 'Alaska',
+   'AS':'American Samoa',
+   'AZ': 'Arizona',
+   'AR': 'Arkanzaz',
+   'CA': 'California',
+   'CO': 'Colorado',
+   'CT': 'Connectikut',
+   'DE': 'Delaware',
+}
+function transformObject(obj) {
+  let newObj={};
+  for (let key in americanStates) {
+    let value = americanStates[key];
+      newObj[value]=key
+  } 
+  return newObj;
+}
+console.log(transformObject(americanStates));
+    
+    
