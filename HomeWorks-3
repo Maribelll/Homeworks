@@ -104,3 +104,4 @@ function ToCapitalCase(a) {
     resultString = resultArray.join(" ");
     //Выводим результат в DOM
     result.value = resultString;
+    }
